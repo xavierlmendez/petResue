@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route}
 import About from './pages/about';
 import Contact from './pages/contact';
 import Home from './pages/home';
+import Find from './pages/find';
 function App() {
   return (
     
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/find' element={<Find/>} />
   
     </Routes>
     </body>
