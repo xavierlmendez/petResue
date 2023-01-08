@@ -10,7 +10,7 @@ const Report = () => {
               Enter Pet Description
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Enter pet description along with your contact information and we will try out best to reunite you with your lost pet!
+              Enter pet description along with your contact information and we will try out best to reunite the found pet with their owners!
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -47,7 +47,7 @@ const Report = () => {
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label for="name" className="leading-7 text-sm text-gray-600">
-                    Name
+                    Pet Breed
                   </label>
                   <input
                     type="text"
